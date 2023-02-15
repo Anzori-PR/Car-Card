@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,300&display=swap');
+
+
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container-fluid {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    width: auto;
+    height: auto;
+    border-radius: 20px;
+    background-color: white;
+    display: grid;
+    grid-template-rows: minmax(0, 2fr) minmax(0, 2.5fr);
+    overflow: hidden;
+    margin: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.car {
+    background-image: url(./img/white.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.description {
+    background-color: green;
+    z-index: 99;
+    padding: 15px 30px;
+    color: white;
+}
+
+.min-btn {
+    width: 50px;
+    background-color: black;
+    border-radius: 5px;
+    padding: 0px 10px;
+    color: white;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.Brend {
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+
+.icons {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.icons i {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+    color: black;
+}
+
+.icons i p {
+    color: white;
+    font-weight: 100;
+}
+
+.color div {
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.color div:hover {
+    scale: 1.2;
+}
+
+.color {
+    display: flex;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+.color .black {
+    width: 22px;
+    height: 22px;
+    background-color: black;
+    border-radius: 100px;
+}
+
+.color .white {
+    width: 22px;
+    height: 22px;
+    background-color: white;
+    border-radius: 100px;
+}
+
+.color .red {
+    width: 22px;
+    height: 22px;
+    background-color: red;
+    border-radius: 100px;
+}
+
+.color .blue {
+    width: 22px;
+    height: 22px;
+    background-color: blue;
+    border-radius: 100px;
+}
+
+.price h1 {
+    font-weight: 900;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: black;
+    width: 130px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    padding: 10px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+button .shop {
+    display: flex;
+    gap: 5px;
+}
+
+
+/* Media Responsive */
+
+@media (max-width: 600px) {
+    .card {
+        font-size: 0.8em;
+    }
+    @media (max-width: 310px) {
+        .card {
+            font-size: 0.7em;
+        }
+        @media (max-width: 280px) {
+            .card {
+                font-size: 0.6em;
+            }
+        }
+    }
+}
