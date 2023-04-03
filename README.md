@@ -9,6 +9,7 @@ This website was created using:
 
 # Website screenshot
 
-![Alt text](https://github.com/Anzori-PR/QR-Code-Card/blob/main/img/screenshot%20qr.png)
+![Alt text](https://github.com/Anzori-PR/Car-Card/blob/main/img/Screenshot%202023-04-03%20192519.png)
 
-Live Website: https://anzori-pr.github.io/Car-Card/index.html
+# Live Website:
+https://anzori-pr.github.io/Car-Card/index.html
